@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		9416B78E1AA959CC00A030D9 /* key_btn_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9416B78C1AA959CC00A030D9 /* key_btn_gray@2x.png */; };
 		9416B78F1AA959CC00A030D9 /* key_btn_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9416B78D1AA959CC00A030D9 /* key_btn_normal@2x.png */; };
-		9445E1631AAC4B9A00ABBC34 /* UyghurSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9445E1611AAC4AE300ABBC34 /* UyghurSDK_iOS.framework */; };
-		9445E1641AAC4B9A00ABBC34 /* UyghurSDK_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9445E1611AAC4AE300ABBC34 /* UyghurSDK_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9445E1661AAC4CC800ABBC34 /* ALKATIP Basma Tom.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9445E1651AAC4CC800ABBC34 /* ALKATIP Basma Tom.TTF */; };
 		9453EB471AA8B4440061014E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9453EB461AA8B4440061014E /* main.m */; };
 		9453EB4A1AA8B4440061014E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9453EB491AA8B4440061014E /* AppDelegate.m */; };
@@ -20,6 +18,8 @@
 		9453EB551AA8B4440061014E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9453EB531AA8B4440061014E /* LaunchScreen.xib */; };
 		9453EEF51AA8C2DB0061014E /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9453EEF21AA8C2DB0061014E /* KeyboardViewController.m */; };
 		9453EEF61AA8C2DB0061014E /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9453EEF41AA8C2DB0061014E /* TextViewController.m */; };
+		94A8C3F21AF1D0BA008342D8 /* UyghurSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A8C3F01AF1D0A0008342D8 /* UyghurSDK_iOS.framework */; };
+		94A8C3F31AF1D0BA008342D8 /* UyghurSDK_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94A8C3F01AF1D0A0008342D8 /* UyghurSDK_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +29,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9445E1641AAC4B9A00ABBC34 /* UyghurSDK_iOS.framework in Embed Frameworks */,
+				94A8C3F31AF1D0BA008342D8 /* UyghurSDK_iOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,9 +39,8 @@
 /* Begin PBXFileReference section */
 		9416B78C1AA959CC00A030D9 /* key_btn_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key_btn_gray@2x.png"; sourceTree = "<group>"; };
 		9416B78D1AA959CC00A030D9 /* key_btn_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key_btn_normal@2x.png"; sourceTree = "<group>"; };
-		9445E1611AAC4AE300ABBC34 /* UyghurSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UyghurSDK_iOS.framework; path = UyghurSDKDemo/UyghurSDK_iOS.framework; sourceTree = "<group>"; };
 		9445E1651AAC4CC800ABBC34 /* ALKATIP Basma Tom.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ALKATIP Basma Tom.TTF"; sourceTree = "<group>"; };
-		9453EB411AA8B4440061014E /* UyghurSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UyghurSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9453EB411AA8B4440061014E /* Dinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9453EB451AA8B4440061014E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9453EB461AA8B4440061014E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9453EB481AA8B4440061014E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		9453EEF21AA8C2DB0061014E /* KeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
 		9453EEF31AA8C2DB0061014E /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		9453EEF41AA8C2DB0061014E /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		94A8C3F01AF1D0A0008342D8 /* UyghurSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UyghurSDK_iOS.framework; path = Dinner/UyghurSDK_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9445E1631AAC4B9A00ABBC34 /* UyghurSDK_iOS.framework in Frameworks */,
+				94A8C3F21AF1D0BA008342D8 /* UyghurSDK_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 		9453EB381AA8B4440061014E = {
 			isa = PBXGroup;
 			children = (
-				9445E1611AAC4AE300ABBC34 /* UyghurSDK_iOS.framework */,
-				9453EB431AA8B4440061014E /* UyghurSDKDemo */,
+				94A8C3F01AF1D0A0008342D8 /* UyghurSDK_iOS.framework */,
+				9453EB431AA8B4440061014E /* Dinner */,
 				9453EB421AA8B4440061014E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,12 +81,12 @@
 		9453EB421AA8B4440061014E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9453EB411AA8B4440061014E /* UyghurSDKDemo.app */,
+				9453EB411AA8B4440061014E /* Dinner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9453EB431AA8B4440061014E /* UyghurSDKDemo */ = {
+		9453EB431AA8B4440061014E /* Dinner */ = {
 			isa = PBXGroup;
 			children = (
 				9445E1651AAC4CC800ABBC34 /* ALKATIP Basma Tom.TTF */,
@@ -103,7 +103,7 @@
 				9453EB531AA8B4440061014E /* LaunchScreen.xib */,
 				9453EB441AA8B4440061014E /* Supporting Files */,
 			);
-			path = UyghurSDKDemo;
+			path = Dinner;
 			sourceTree = "<group>";
 		};
 		9453EB441AA8B4440061014E /* Supporting Files */ = {
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9453EB401AA8B4440061014E /* UyghurSDKDemo */ = {
+		9453EB401AA8B4440061014E /* Dinner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9453EB641AA8B4440061014E /* Build configuration list for PBXNativeTarget "UyghurSDKDemo" */;
+			buildConfigurationList = 9453EB641AA8B4440061014E /* Build configuration list for PBXNativeTarget "Dinner" */;
 			buildPhases = (
 				9453EB3D1AA8B4440061014E /* Sources */,
 				9453EB3E1AA8B4440061014E /* Frameworks */,
@@ -133,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = UyghurSDKDemo;
+			name = Dinner;
 			productName = UyghurSDKDemo;
-			productReference = 9453EB411AA8B4440061014E /* UyghurSDKDemo.app */;
+			productReference = 9453EB411AA8B4440061014E /* Dinner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9453EB3C1AA8B4440061014E /* Build configuration list for PBXProject "UyghurSDKDemo" */;
+			buildConfigurationList = 9453EB3C1AA8B4440061014E /* Build configuration list for PBXProject "Dinner" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -166,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9453EB401AA8B4440061014E /* UyghurSDKDemo */,
+				9453EB401AA8B4440061014E /* Dinner */,
 			);
 		};
 /* End PBXProject section */
@@ -311,9 +311,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/UyghurSDKDemo",
+					"$(PROJECT_DIR)/Dinner",
 				);
-				INFOPLIST_FILE = UyghurSDKDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Dinner/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
@@ -332,9 +332,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/UyghurSDKDemo",
+					"$(PROJECT_DIR)/Dinner",
 				);
-				INFOPLIST_FILE = UyghurSDKDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Dinner/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9453EB3C1AA8B4440061014E /* Build configuration list for PBXProject "UyghurSDKDemo" */ = {
+		9453EB3C1AA8B4440061014E /* Build configuration list for PBXProject "Dinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9453EB621AA8B4440061014E /* Debug */,
@@ -355,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9453EB641AA8B4440061014E /* Build configuration list for PBXNativeTarget "UyghurSDKDemo" */ = {
+		9453EB641AA8B4440061014E /* Build configuration list for PBXNativeTarget "Dinner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9453EB651AA8B4440061014E /* Debug */,
