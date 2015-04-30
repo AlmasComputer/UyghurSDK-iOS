@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>89D242DE-7B8C-470E-8FCD-DDB4F72AC392</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Dinner</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C6A6202C5BD70DCB34E1A061A1C80A5A97D57B83</key>
+		<string>github.com:Alimjan2009/UyghurSDK-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dinner.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C6A6202C5BD70DCB34E1A061A1C80A5A97D57B83</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Alimjan2009/UyghurSDK-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C6A6202C5BD70DCB34E1A061A1C80A5A97D57B83</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6A6202C5BD70DCB34E1A061A1C80A5A97D57B83</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UyghurSDK-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
